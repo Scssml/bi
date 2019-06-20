@@ -1,0 +1,2280 @@
+/*============    ШРИФТЫ    ===========*/
+input,
+button,
+a {
+  outline: none;
+}
+header .line-head {
+  background-color: #275988;
+}
+header .line-head .row {
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .line-head a {
+  color: white;
+  /* Style for "ГЛАВНАЯ" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+header .container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+header .line-bottom .line {
+  height: 133px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .line-bottom .menu a {
+  /* Style for "Мотосигнал" */
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "Аксессуары" */
+  line-height: 25px;
+  margin-left: 26px;
+}
+#main {
+  overflow-x: hidden;
+}
+#main ul.slick-dots {
+  position: absolute;
+  top: 43%;
+  z-index: 600;
+  right: 2%;
+}
+#main ul.slick-dots li {
+  list-style: none;
+  font-size: 0;
+  position: relative;
+}
+#main ul.slick-dots li button {
+  border: none;
+  width: 21px;
+  height: 21px;
+  padding: 6px;
+  border: 4px solid transparent;
+  background: url(../img/li.png) center center no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  -webkit-transition: 0.25s all;
+  transition: 0.25s all;
+}
+#main ul.slick-dots li button:hover {
+  -webkit-transition: 0.25s all;
+  transition: 0.25s all;
+  border: 4px solid #fff;
+  background: transparent;
+  width: 21px;
+  height: 21px;
+}
+#main .col-md-12 {
+  padding: 0;
+}
+#main .block-slider {
+  height: auto;
+  width: 100%;
+}
+#main .block-slider1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#main .inner {
+  text-align: center;
+}
+#main .title {
+  /* Style for "Ваш новый" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 71px;
+  font-weight: 700;
+  line-height: 31.02px;
+  text-transform: uppercase;
+  margin-bottom: 43px;
+}
+#main .text {
+  /* Style for "Сотрудниче" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 13.44px;
+  margin-bottom: 82px;
+}
+#main .more {
+  /* Style for "Прямоуголь" */
+  background-color: #ed1b24;
+  width: 253px;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Style for "ПОДРОБНЕЕ" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#brands {
+  padding: 50px 0;
+}
+#brands .brands div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#brands .brands img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#advantages {
+  background-color: #f7f7f7;
+  padding-top: 77px;
+  padding-bottom: 87px;
+}
+#advantages .container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#advantages .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+#advantages .title .text {
+  margin-left: 10px;
+  text-align: left;
+  /* Style for "ДОСТАВКА" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 35.4px;
+  text-transform: uppercase;
+}
+#advantages .main-text {
+  /* Style for "С другой с" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20.47px;
+  /* Text style for "С другой с" */
+  letter-spacing: 0.36px;
+}
+#news .block-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#news .block-news .news {
+  height: 542px;
+  background-size: cover!important;
+  padding-left: 116px;
+  padding-bottom: 123px;
+  padding-right: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+#news .block-news .news .overlay {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+#news .block-news .news .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 100;
+}
+#news .block-news .news .links .category {
+  /* Style for "НОВОСТЬ" */
+  color: #fff;
+  margin-right: 42px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+}
+#news .block-news .news .links .date i {
+  color: #fff;
+  position: relative;
+  top: -2px;
+}
+#news .block-news .news .links .date span {
+  /* Style for "21.05.2018" */
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+#news .block-news .news .title {
+  /* Style for "В продажу" */
+  color: #fff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+  position: relative;
+  z-index: 50;
+}
+#news .block-news .news:nth-child(1) {
+  width: 65%;
+}
+#news .block-news .news:nth-child(2) {
+  width: 35%;
+}
+#news .block-news .news:nth-child(3) {
+  width: 35%;
+}
+#news .block-news .news:nth-child(4) {
+  width: 65%;
+}
+#send .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 248px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#send .title {
+  /* Style for "РАССЫЛКА" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50.05px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+#send .text {
+  /* Style for "Подпишитес" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.03px;
+  /* Text style for "Подпишитес" */
+  letter-spacing: 0.14px;
+}
+#send input {
+  /* Style for "Ellipse 2" */
+  border: 3px solid #bebebe;
+  opacity: 0.23;
+  height: 72px;
+  width: 432px;
+  border-right: none;
+  padding-left: 32px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26.26px;
+}
+#send button {
+  height: 72px;
+  background-color: #d92928;
+  /* Style for "ПОДПИСАТЬС" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  /* Text style for "ПОДПИСАТЬС" */
+  letter-spacing: 0.32px;
+  width: 190px;
+}
+#send form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer {
+  padding-top: 135px;
+  padding-bottom: 146px;
+  background-color: #275988;
+}
+footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer a {
+  display: block;
+  color: white;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .title {
+  /* Style for "КАРТА САЙТ" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 41px;
+  margin-left: 170px;
+}
+footer .title2 {
+  margin-bottom: 23px;
+  margin-left: 0;
+}
+footer .links {
+  margin-left: 170px;
+  margin-bottom: 13.5px;
+}
+footer .line {
+  color: #fff;
+  margin-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .line i {
+  margin-right: 21px;
+  font-size: 20px;
+}
+footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+footer .phone i {
+  margin-right: 17px;
+  font-size: 20px;
+  margin-top: 4px;
+}
+footer .phone span {
+  /* Style for "0123-456-7" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28.49px;
+  text-transform: uppercase;
+}
+footer .mail {
+  margin-bottom: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .mail i {
+  margin-right: 16px;
+  font-size: 20px;
+  margin-top: 4px;
+}
+footer .mail span {
+  /* Style for "info@demol" */
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28.49px;
+}
+footer .social {
+  font-size: 23px;
+}
+footer .social a {
+  margin-right: 15px;
+}
+.tovar header {
+  -webkit-box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+  z-index: 50;
+  position: relative;
+}
+#tovar {
+  background-color: #f3f3f3;
+}
+#bread {
+  background-color: #f3f3f3;
+}
+#bread .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 115px;
+}
+#tovar {
+  padding-bottom: 84px;
+}
+#tovar .slider {
+  position: relative;
+}
+#tovar .slider .new {
+  /* Style for "Прямоуголь" */
+  background-color: #d92928;
+  width: 159px;
+  height: 34px;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  z-index: 100;
+  /* Style for "НОВИНКА" */
+  color: #f4f4f4;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 49.65px;
+  text-transform: uppercase;
+}
+#tovar .slider .fotorama__nav-wrap {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#tovar .logo-tovar {
+  margin-bottom: 49px;
+}
+#tovar .article {
+  /* Style for "Артикул  0" */
+  color: #767676;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38.31px;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+#tovar .title {
+  /* Style for "Pandora DX" */
+  color: #0f0f0f;
+  font-family: Montserrat;
+  /* Text style for "" */
+  font-weight: 400;
+  line-height: 38.17px;
+  /* Text style for "Pandora DX" */
+  color: #275988;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 49.9px;
+  /* Text style for "Автомобиль" */
+  margin-bottom: 45px;
+}
+#tovar .title span {
+  font-family: "Montserrat";
+  color: #0f0f0f;
+  font-weight: 400;
+  line-height: 42.17px;
+  font-size: 29px;
+}
+#tovar .right {
+  margin-left: 82px;
+}
+#tovar .description p {
+  /* Style for "Pandora DX" */
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+#tovar .more {
+  color: #275988;
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 16px;
+  display: block;
+}
+#tovar .description {
+  height: 222px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: max-height 1.5s;
+  transition: max-height 1.5s;
+}
+#tovar .text-open {
+  overflow: visible;
+  height: auto;
+  -webkit-transition: max-height 1.5s;
+  transition: max-height 1.5s;
+}
+#tovar .text-open .toggle {
+  display: none;
+}
+#tovar .toggle {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(243, 243, 243, 0)), to(#f3f3f3));
+  background-image: linear-gradient(rgba(243, 243, 243, 0) 50%, #f3f3f3 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+#line {
+  background-color: #d2d2d2;
+  width: 100%;
+  height: 6px;
+}
+#descript .container-fluid {
+  background-color: #e9e9e9;
+}
+#descript ul.tabs li.current {
+  background: #fff;
+  color: #222;
+}
+#descript .tab-content {
+  display: none;
+  padding: 15px;
+  padding-top: 88px;
+  padding-bottom: 115px;
+}
+#descript .tab-content.current {
+  display: inherit;
+}
+#descript ul.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#descript ul.tabs li {
+  list-style: none;
+  background-color: #e9e9e9;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 255px;
+  /* Style for "КОМПЛЕКТАЦ" */
+  color: #7f7f7f;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-transform: uppercase;
+}
+#descript ul.tabs li:hover {
+  cursor: pointer;
+}
+#descript .text-video {
+  /* Style for "ВИДЕО-ОБЗО" */
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 47px;
+}
+#descript .img-vid {
+  margin-top: 65px;
+}
+#descript .title {
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+}
+#descript .block-line {
+  border: 10px solid #08c;
+  width: 165px;
+  height: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#descript .block-line img {
+  width: 80%;
+}
+#descript .title2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#descript .text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+#descript #tab-1 {
+  background: url(../img/3957.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#descript .line1 {
+  margin-bottom: 50px;
+}
+#descript .title-content {
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#descript table {
+  font-family: Montserrat;
+  margin-bottom: 50px;
+  width: 100%;
+}
+#descript table td {
+  width: 50%!important;
+}
+#descript #tab-3 .title2,
+#descript #tab-3 .text {
+  color: #000;
+}
+#descript #tab-3 .row {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#descript #tab-3 .row .col-md-4 {
+  border-radius: 5px;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+}
+#descript .text2 {
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-right: 10px;
+}
+#descript .line-down {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#descript .line-down i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+#descript .line-down a {
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+#goods {
+  background-color: #f0f0f0;
+  padding-top: 94px;
+  padding-bottom: 97px;
+}
+#goods .title {
+  /* Style for "ПОХОЖИЕ ТО" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34.37px;
+  text-transform: uppercase;
+  margin-bottom: 98px;
+}
+#goods .goods-block {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#goods .goods-block .img {
+  width: 100%;
+  margin-bottom: 46px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#goods .goods-block .img img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#goods .title-goods {
+  margin-bottom: 18px;
+  /* Style for "Pandora LX" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+#goods .categoty-goods {
+  /* Style for "АВТОСИГНАЛ" */
+  color: #bebebe;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  /* Text style for "АВТОСИГНАЛ" */
+  letter-spacing: 0.72px;
+  margin-bottom: 20px;
+}
+#goods .price {
+  /* Style for "7 600 РУБ" */
+  color: #292b38;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  /* Text style for "7 600 РУБ" */
+  letter-spacing: -0.75px;
+  margin-bottom: 34px;
+}
+#goods .goods {
+  position: relative;
+}
+#goods .goods ul.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: -130px;
+  right: 10px;
+}
+#goods .goods ul.slick-dots li {
+  list-style: none;
+}
+#goods .goods ul.slick-dots li button {
+  font-size: 0;
+  border: none;
+  width: 22px;
+  height: 22px;
+  background: url(../img/li1.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#goods .goods ul.slick-dots li button:hover {
+  background: url(../img/li2.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+#goods .goods ul.slick-dots li.slick-active button {
+  background: url(../img/li2.png) center center no-repeat;
+  background-size: cover;
+}
+header .line-bottom .menu .podmenu a {
+  margin-left: 13px;
+  margin-right: 13px;
+  display: block;
+}
+.slick-slide.slick-cloned {
+  outline: none;
+}
+#text {
+  padding: 50px 0;
+}
+#text .text {
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20.47px;
+  letter-spacing: 0.36px;
+}
+footer .block {
+  width: 33%;
+}
+footer .block1 {
+  width: 33%;
+}
+footer .line i {
+  margin-right: 15px;
+  font-size: 32px;
+}
+footer .phone i {
+  margin-right: 15px;
+  font-size: 23px;
+  margin-top: 4px;
+}
+.fotorama__wrap {
+  margin: 0 auto;
+}
+#category {
+  background-color: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#category .title {
+  margin: 0 ;
+  /* Style for "Pandora DX" */
+  color: #0f0f0f;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 49.9px;
+  /* Text style for "Автомобиль" */
+  font-family: "Montserrat";
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+#category a {
+  text-decoration: none;
+}
+#category a .block {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 350px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#category a .block .new {
+  background: #d92928;
+  color: #f4f4f4;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 49.65px;
+  height: 34px;
+  width: 159px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+#category a:hover .title2 {
+  color: #275988;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+#category .title2 {
+  margin: 0 ;
+  /* Style for "Pandora DX" */
+  color: #0f0f0f;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 49.9px;
+  /* Text style for "Автомобиль" */
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 50px;
+  min-height: 57px;
+}
+#category .text {
+  margin: 0 ;
+  /* Style for "Pandora DX" */
+  color: #0f0f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 49.9px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 1.3;
+}
+#category .pagination {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+#category .pagination li {
+  color: #000;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 100%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+#category .pagination li:hover {
+  color: #fff;
+  background-color: #275988;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+#category .pagination li a,
+#category .pagination li span {
+  border-radius: 100%!important;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+}
+#category .pagination li a:hover,
+#category .pagination li span:hover {
+  color: #fff;
+  background-color: #275988;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border: none;
+}
+#category .pagination li.active {
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+#category .pagination li.active span {
+  background: #000;
+  border: none;
+}
+#bread a.type {
+  /* Style for "АКЦИИ" */
+  color: #275988;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25.43px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 20px;
+}
+#bread a.type.active {
+  /* Style for "НОВОСТИ" */
+  color: #d92928;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25.43px;
+  text-transform: uppercase;
+}
+#news-inner {
+  padding-bottom: 70px;
+}
+#news-inner .photo {
+  margin-bottom: 40px;
+}
+#news-inner .photo a {
+  display: block;
+  margin-bottom: 40px;
+}
+#news-inner .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#news-inner .block .text-date {
+  text-transform: uppercase;
+  color: grey;
+  margin-right: 10px;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+#news-inner .block i {
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  color: grey;
+}
+#news-inner .block .date {
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: grey;
+}
+#news-inner .pre-text {
+  /* Style for "2 июня офи" */
+  color: #0f0f0f;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.35px;
+  margin-bottom: 70px;
+}
+#news-inner .title {
+  /* Style for "Pandora на" */
+  color: #275988;
+  font-family: "Montserrat";
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#news-inner img.main {
+  margin-bottom: 72px;
+}
+#news-inner .text {
+  /* Style for "Количество" */
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+#news-inner .tegs {
+  /* Style for "Теги: Pand" */
+  color: #7f7f7f;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 42.17px;
+  font-weight: 300;
+}
+#news-inner .tegs b {
+  font-weight: 600;
+}
+#news-inner .text2 {
+  /* Style for "ПОДЕЛИТЬСЯ" */
+  color: #7f7f7f;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 42.17px;
+}
+#news-inner .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#news-inner .block2 .text2 {
+  margin-right: 15px;
+}
+#news-slider {
+  background-color: #f0f0f0;
+  padding-top: 94px;
+  padding-bottom: 97px;
+}
+#news-slider a {
+  text-decoration: none;
+}
+#news-slider a {
+  outline: none;
+}
+#news-slider .title {
+  /* Style for "ПОХОЖИЕ ТО" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 34.37px;
+  text-transform: uppercase;
+  margin-bottom: 98px;
+}
+#news-slider .goods-block {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+#news-slider .goods-block .img {
+  width: 100%;
+  margin-bottom: 46px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+#news-slider .goods-block .img .bg {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  top: 0;
+  right: 0;
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+  z-index: 10;
+}
+#news-slider .goods-block .img img {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 40;
+}
+#news-slider .title-goods {
+  /* Style for "НОВАЯ СИСТ" */
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.11px;
+  text-transform: uppercase;
+  /* Text style for "Pandora DX" */
+  color: #000000;
+  margin-bottom: 33px;
+}
+#news-slider .categoty-goods {
+  /* Style for "АВТОСИГНАЛ" */
+  color: #bebebe;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  /* Text style for "АВТОСИГНАЛ" */
+  letter-spacing: 0.72px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#news-slider .categoty-goods i {
+  margin-right: 5px;
+  margin-top: 1px;
+}
+#news-slider .price {
+  /* Style for "7 600 РУБ" */
+  color: #292b38;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  /* Text style for "7 600 РУБ" */
+  letter-spacing: -0.75px;
+  margin-bottom: 34px;
+}
+#news-slider .news {
+  position: relative;
+}
+#news-slider .news ul.slick-dots {
+  display: -webkit-box!important;
+  display: -ms-flexbox!important;
+  display: flex!important;
+  position: absolute;
+  top: -130px;
+  right: 10px;
+}
+#news-slider .news ul.slick-dots li {
+  list-style: none;
+}
+#news-slider .news ul.slick-dots li button {
+  font-size: 0;
+  border: none;
+  width: 22px;
+  height: 22px;
+  background: url(../img/li1.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#news-slider .news ul.slick-dots li button:hover {
+  background: url(../img/li2.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+#news-slider .news ul.slick-dots li.slick-active button {
+  background: url(../img/li2.png) center center no-repeat;
+  background-size: cover;
+}
+.fotorama__stage {
+  background-color: #fff;
+}
+#article {
+  padding: 50px 0;
+  color: #000;
+}
+#article .article {
+  margin-bottom: 30px;
+}
+#article a {
+  color: #000;
+  text-decoration: none;
+}
+#article .img {
+  height: 150px;
+  width: 100%;
+}
+#article .title {
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+#article .text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
+#article .rubrika {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+#contacts {
+  padding: 25px 0;
+  font-family: Montserrat;
+}
+#contacts iframe {
+  height: 300px;
+  width: 100%;
+}
+#contacts .title {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+#contacts .line {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#contacts .line i {
+  font-size: 23px;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+#contacts .phone {
+  margin-bottom: 20px;
+}
+#contacts .phone i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+#contacts .mail {
+  margin-bottom: 20px;
+}
+#contacts .mail i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+#contacts a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+#contacts .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+#contacts .social a {
+  margin-right: 15px;
+  font-size: 23px;
+}
+.writeus {
+  border: 1px solid #111;
+  height: 47px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.writeus:hover {
+  background: #111;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#modal form h2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 25px;
+}
+#modal form input {
+  height: 47px;
+  border: 1px solid #111;
+  font-family: Montserrat;
+  padding-left: 24px;
+  font-weight: 300;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+#modal form button {
+  border: 1px solid #111;
+  height: 47px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+}
+#modal form button:hover {
+  background: #111;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#contacts {
+  background: #f3f3f3;
+}
+#contacts .text {
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+#contacts .text b {
+  margin-bottom: -12px;
+}
+#contacts textarea {
+  border: 1px solid #888;
+  padding-left: 10px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  width: 100%;
+}
+#contacts form {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0 5px 13px;
+          box-shadow: rgba(0, 0, 0, 0.17) 0 5px 13px;
+}
+#contacts form input,
+#contacts form select {
+  height: 40px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-family: Montserrat;
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+#contacts form h2 {
+  margin: 0;
+  font-family: Montserrat;
+  margin-bottom: 15px;
+}
+#contacts form .text {
+  margin-bottom: 5px;
+}
+#contacts form button {
+  background-color: #275988;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-family: Montserrat;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+}
+#send .thanks .title {
+  font-size: 25px;
+  line-height: 1.2;
+  text-transform: initial;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#send .thanks .title2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+}
+.rubrika .date {
+  margin-left: 10px;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 0px) and (max-width: 1200px) {
+  #advantages .title .text {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  #news-slider .title {
+    font-size: 30px;
+  }
+  #news-inner .title {
+    font-size: 20px;
+    text-transform: initial;
+  }
+  #news-inner .pre-text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  #news-inner .text {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  #news-inner .tegs {
+    line-height: 1;
+  }
+  #news-inner .block2 {
+    margin-top: 25px;
+  }
+  #news-slider .news ul.slick-dots {
+    top: -70px;
+  }
+  #descript-mob .block-line {
+    margin-top: 8px;
+    border: 4px solid #08c;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #descript-mob .block-line img {
+    width: 80%;
+  }
+  #descript-mob .title {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  #descript-mob .title2 {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  #descript-mob .line1 .col-xs-12 {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  #descript-mob .text {
+    margin-bottom: 50px;
+  }
+  #descript-mob .title-content {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #descript-mob td {
+    max-width: 70%;
+    padding-right: 15px;
+  }
+  #descript-mob .line-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #descript-mob .line-down i {
+    margin-right: 5px;
+    display: block;
+  }
+  #descript-mob .line-down .text2 {
+    margin-right: 5px;
+  }
+  #category .pagination {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+  #category .text {
+    text-align: center;
+  }
+  #category .title {
+    font-size: 27px;
+  }
+  #category .block img {
+    height: 80%;
+  }
+  footer .block1 {
+    width: 100%;
+  }
+  footer .block1 img {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .block {
+    width: 100%;
+  }
+  footer .block2 {
+    padding-left: 15px;
+  }
+  footer .block3 {
+    padding-left: 15px;
+  }
+  #main .text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #advantages .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #advantages .main-text {
+    text-align: center;
+  }
+  header .line-bottom .menu {
+    width: 100%;
+  }
+  header .line-bottom .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  header .line-bottom .menu ul li {
+    text-align: left;
+    width: 100%;
+  }
+  header .line-bottom .menu ul li {
+    display: block;
+  }
+  header .line-bottom .menu ul li .podmenu {
+    position: relative;
+    top: 0;
+  }
+  header .line-bottom .menu ul li {
+    height: auto;
+  }
+  body {
+    -webkit-transition: 0.5;
+    transition: 0.5;
+  }
+  .podmenu {
+    display: none;
+  }
+  header .logo img {
+    max-width: 100%;
+  }
+  header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .menu a {
+    margin-left: 0;
+  }
+  header .line-head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 700;
+    width: 75%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  header .line-head a {
+    color: #000;
+    margin-bottom: 15px;
+    text-decoration: none!important;
+  }
+  header .line-head .head-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+  }
+  header .line-head .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  header .line-head a.menu-btn.visible-xs {
+    font-size: 30px;
+    position: absolute;
+    right: -90px;
+    top: 0;
+  }
+  header .line-bottom .logo {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .line-bottom .logo i {
+    font-size: 25px;
+  }
+  header .line-bottom .logo img {
+    width: 80%;
+  }
+  .menu_active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .content_active {
+    -webkit-transform: translateX(75%);
+            transform: translateX(75%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #tovar .slider .new {
+    z-index: 40;
+  }
+  header .line-bottom .line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .line-head .row {
+    height: auto;
+  }
+  #descript ul.tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #tovar .right {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  #send .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  #send .row form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #send .row form input {
+    width: 100%;
+  }
+  .logo2 {
+    max-width: 100%;
+  }
+  footer .title,
+  footer .links {
+    margin-left: 0;
+  }
+  header .menu-mob {
+    display: none;
+  }
+  header .menu-mob a {
+    display: block;
+    margin-left: 0;
+  }
+  header .line-bottom .menu a {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .category-button {
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    font-size: 16px;
+  }
+  .link-menu2 {
+    margin-left: 20px!important;
+  }
+  #tovar .logo-tovar {
+    margin-bottom: 10px;
+  }
+  #tovar .title {
+    font-size: 32px;
+  }
+  #tovar .title span {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+  #tovar .description p {
+    font-size: 15px;
+  }
+  section#descript {
+    display: none;
+  }
+  .item__desc {
+    display: none;
+  }
+  #goods .goods ul.slick-dots {
+    top: auto;
+    padding: 0;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: -35px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #goods .title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #goods {
+    padding: 30px 0 60px;
+  }
+  #goods .goods-block .img {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #goods .title-goods {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #goods .categoty-goods {
+    text-align: center;
+    font-size: 16px;
+  }
+  #bread {
+    font-size: 11px;
+    padding: 25px 0 20px;
+  }
+  #bread .row {
+    height: auto;
+  }
+  #send .title {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+  }
+  #send .text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  #send {
+    padding-bottom: 50px;
+  }
+  #send .row {
+    display: block;
+  }
+  #send input {
+    color: #000;
+    opacity: 1;
+    border-width: 0.1px;
+    margin-bottom: 10px;
+    border: 1px solid #bebebe;
+  }
+  #send button {
+    border: none;
+    width: 100%;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer .logo2 {
+    margin-bottom: 50px;
+  }
+  footer .title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  footer .title2 {
+    margin-top: 40px;
+  }
+  footer footer .phone span {
+    font-weight: 500;
+  }
+  section#descript-mob {
+    background: #f0f0f0;
+  }
+  section#descript-mob .col-md-12 {
+    padding: 0;
+  }
+  section#descript-mob .item {
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    border: 1px solid #ccc;
+    font-family: Montserrat;
+  }
+  section#descript-mob .item .item__name {
+    text-transform: uppercase;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section#descript-mob .item .item__desc {
+    padding-bottom: 15px;
+  }
+  #main .title {
+    font-size: 31px;
+  }
+  #main .text {
+    line-height: 1.1;
+  }
+  #advantages .main-text {
+    margin-bottom: 50px;
+  }
+  #news .block-news .news:nth-child(1),
+  #news .block-news .news:nth-child(2),
+  #news .block-news .news:nth-child(3),
+  #news .block-news .news:nth-child(4) {
+    width: 100%;
+  }
+  #news .block-news .news {
+    height: auto;
+    padding: 25px;
+    padding-top: 150px;
+  }
+  #news .block-news .news .title {
+    font-size: 14px;
+  }
+  #main li.slick-active button {
+    -webkit-transition: 0.25s all;
+    transition: 0.25s all;
+    border: 4px solid #fff;
+    background: transparent;
+    width: 21px;
+    height: 21px;
+  }
+  #main li.slick-active button:hover {
+    -webkit-transition: 0.25s all;
+    transition: 0.25s all;
+    border: 4px solid #fff;
+    background: transparent;
+    width: 21px;
+    height: 21px;
+  }
+  #main ul.slick-dots li.slick-active button {
+    -webkit-transition: 0.25s all;
+    transition: 0.25s all;
+    border: 4px solid #fff;
+    background: transparent;
+    width: 21px;
+    height: 21px;
+  }
+  footer .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  #article .text {
+    font-size: 14px;
+  }
+  #article .title {
+    margin-bottom: 5px;
+  }
+  #news-slider .title-goods {
+    font-size: 19px;
+  }
+  footer .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .row .block1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  footer .row .block1 img {
+    max-width: 50%;
+  }
+  footer .title2 {
+    margin-top: 0;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33%;
+  }
+  footer .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .row .block {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    min-width: 33%;
+  }
+  footer .block2,
+  footer .block3 {
+    width: 49%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  footer .line span br {
+    display: none;
+  }
+  footer .title {
+    font-size: 15px;
+  }
+  footer .title2 {
+    margin-bottom: 13px!important;
+    margin-left: 0;
+  }
+  header .line-bottom .logo img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  header .line-bottom .logo img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section,
+  header,
+  footer {
+    overflow-x: hidden;
+  }
+  #category .pagination {
+    margin-top: 0;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  #descript ul.tabs li {
+    font-size: 15px;
+  }
+  footer .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .row .block {
+    max-width: 33%!important;
+    width: 33%!important;
+  }
+  #send .row form {
+    margin-top: 20px;
+  }
+  footer .title2 {
+    margin-top: 14px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 2000px) {
+  .podmenu {
+    position: absolute;
+  }
+  header .logo img {
+    max-width: 300px;
+  }
+  header .line-bottom .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  header .line-bottom .menu ul li {
+    list-style: none;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+  }
+  header .line-bottom .menu ul li a {
+    margin-left: 0;
+    text-decoration: none;
+  }
+  header .line-bottom .menu ul li:hover .podmenu {
+    display: block;
+  }
+  header .line-bottom .menu ul li .podmenu {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    top: 50px;
+    left: 0;
+    min-width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 400;
+  }
+}

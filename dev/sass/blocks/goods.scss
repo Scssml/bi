@@ -1,0 +1,410 @@
+.goods-img {
+  display: block;
+  height: 245px;
+  font-size: 0;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  img {
+    display: inline-block !important;
+    vertical-align: middle;
+    width: auto !important;
+    max-height: 90%;
+  }
+
+  &--small {
+    height: 142px;
+    text-align: left;
+
+    @media (max-width: 575px) {
+      text-align: center;
+    }
+  }
+}
+
+.goods-day {
+
+  &--name {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin: 1rem 0;
+    text-decoration: none;
+  }
+
+  &--price{
+    font-size: 1.85rem;
+    font-weight: 700;
+    text-align: right;
+
+    &:after {
+      content: '₽';
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 991px) {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+}
+
+.card-goods {
+  background: #fff;
+  padding: 20px 15px 25px;
+  line-height: 1.2;
+  border-radius: 7px;
+  border: 1px solid #d3d2d2;
+  max-width: 290px;
+  margin: 0 auto;
+
+  &--line {
+    max-width: 100%;
+
+    @media (max-width: 575px) {
+      max-width: 290px;
+    }
+  }
+
+  &__name {
+    height: 38px;
+    overflow: hidden;
+  }
+
+  &__small {
+    font-size: 0.8rem;
+  }
+
+  &__price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+}
+
+.goods-label {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #fff;
+  text-align: center;
+
+  &__item {
+    display: block;
+    width: 76px;
+    height: 56px;
+    background-image: url(../img//label-goods-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url(../img/icon-gift.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    span {
+      display: block;
+    }
+
+    &--gift {
+
+      &:before {
+        width: 30px;
+        height: 31px;
+        top: 10px;
+        left: 27px;
+      }
+    }
+
+    &--sale {
+      padding-top: 15px;
+
+      span {
+        font-size: 1.25rem;
+        font-weight: 700;
+        transform: rotate(-10deg);
+      }
+    }
+  }
+
+  &--small {
+    top: 0;
+
+    .goods-label__item {
+      width: 54px;
+      height: 40px;
+
+      &--gift {
+
+        &:before {
+          width: 20px;
+          height: 24px;
+          top: 6px;
+          left: 20px;
+        }
+      }
+  
+      &--sale {
+        padding-top: 10px;
+  
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.catalog-list {
+  
+  &__link {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+    @media (max-width: 575px) {
+      padding: 0px 5px;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    background-color: #bc0f0f;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 10px;
+
+    @media (max-width: 575px) {
+      width: 22px;
+      height: 22px;
+      background-size: auto 70%;
+    }
+  }
+
+  &__name {
+    display: inline-block;
+    width: calc(100% - 46px);
+    vertical-align: middle;
+    line-height: 1.2;
+
+    @media (max-width: 575px) {
+      width: calc(100% - 36px);
+    }
+  }
+}
+
+.goods-count {
+  display: inline-flex;
+  vertical-align: middle;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: -5px;
+  text-align: center;
+  width: 120px;
+
+  &--small {
+    width: 100px;
+  }
+
+  &__btn {
+    display: inline-block;
+    width: 26px;
+    height: 30px;
+    line-height: 28px;
+    color: #fff;
+    background: #5e5e5e;
+    text-decoration: none;
+    font-size: 1.15rem;
+    transition: background-color 0.25s ease-in-out;
+
+    &:hover,
+    &:focus {
+      background: #b36969;
+      color: #fff;
+    }
+  }
+
+  &__input {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #d3d2d2;
+    flex-grow: 1;
+    outline: none;
+    text-align: center;
+    border-radius: 0;
+  }
+}
+
+.props-list {
+
+  &__item {
+    min-height: 44px;
+    padding: 5px 0;
+  }
+}
+
+.detail-card {
+  font-size: 14px;
+
+  &__name {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  &__price {
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    font-size: 1.85rem;
+  }
+
+  &__props {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  &__btn {
+    width: 100%;
+
+    @media (max-width: 575px) {
+      width: 290px;
+    }
+  }
+}
+
+.card-small {
+  font-size: 0.75rem;
+  max-width: 120px;
+  margin: 0 auto;
+
+  &__img {
+    display: block;
+    height: 124px;
+    border: 1px solid #d3d2d2;
+    border-radius: 5px;
+    background: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-align: center;
+    overflow: hidden;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+  }
+
+  &__name {
+    text-decoration: none;
+
+    &--medium {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.gift-block {
+  border: 2px solid #b36969;
+  border-radius: 7px;
+  padding: 36px 20px;
+  background: #f5f5f5;
+
+  &__price {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  &__price-old {
+    color: #2c2c2c;
+  }
+
+  &__item {
+    position: relative;
+
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+
+    &:after {
+      position: absolute;
+      color: #b36969;
+      font-size: 3rem;
+      top: 30px;
+      line-height: 1;
+      width: 28px;
+      text-align: center;
+    }
+
+    &:first-child {
+
+      @media (max-width: 575px) {
+        margin-bottom: 50px;
+      }
+      
+      &:after {
+        content: '+';
+        right: -14px;
+
+        @media (max-width: 575px) {
+          top: auto;
+          bottom: -45px;
+          left: calc(50% - 14px);
+        }
+      }
+    }
+
+    &:last-child {
+      @media (max-width: 767px) {
+        margin-bottom: 0;
+      }
+
+      &:after {
+        content: '=';
+        left: -14px;
+
+        @media (max-width: 767px) {
+          top: -40px;
+          left: calc(50% - 14px);
+        }
+      }
+    }
+  }
+}
+
+.configurator {
+
+  &__item {
+    max-width: 374px;
+  }
+}

@@ -1,0 +1,420 @@
+.icon {
+
+  &:before,
+  &:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:before {
+    margin-right: 8px;
+  }
+
+  &:after {
+    margin-left: 8px;
+    display: none;
+  }
+
+  &--after {
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: inline-block;
+    }
+  }
+
+  span {
+    vertical-align: middle;
+  }
+
+  &--va-top {
+
+    span {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  &--login {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-login.png);
+      width: 10px;
+      height: 14px;
+    }
+  }
+
+  &--registration {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-registration.png);
+      width: 11px;
+      height: 13px;
+    }
+  }
+
+  &--menu {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-menu.png);
+      width: 20px;
+      height: 13px;
+    }
+  }
+
+  &--clock {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-clock.png);
+      width: 19px;
+      height: 19px;
+    }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-clock-pink.png);
+        width: 19px;
+        height: 19px;
+      }
+    }
+  }
+
+  &--phone {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-phone.png);
+      width: 19px;
+      height: 19px;
+    }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-phone-pink.png);
+        width: 19px;
+        height: 19px;
+      }
+    }
+  }
+
+  &--cart {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-cart.png);
+      width: 24px;
+      height: 22px;
+    }
+  }
+
+  &--arrow-right {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-arrow-right.png);
+      width: 10px;
+      height: 20px;
+    }
+  }
+
+  &--success {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-success.png);
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &--error {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-error.png);
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &--address {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-address.png);
+      width: 15px;
+      height: 19px;
+    }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-address-pink.png);
+        width: 17px;
+        height: 25px;
+      }
+    }
+  }
+
+  &--mail {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-mail.png);
+      width: 20px;
+      height: 14px;
+    }
+  }
+
+  &--pdf {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-pdf.png);
+      width: 15px;
+      height: 19px;
+    }
+  }
+
+  &--tools {
+    
+    &:before,
+    &:after {
+      background-image: url(../img/ico-tools.png);
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  &--info {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-info.png);
+      width: 4px;
+      height: 15px;
+    }
+  }
+
+  &--lock {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-lock.png);
+      width: 12px;
+      height: 16px;
+    }
+  }
+
+  &--text {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-text.png);
+      width: 12px;
+      height: 15px;
+    }
+  }
+
+  &--brand {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-brand.png);
+      width: 11px;
+      height: 14px;
+    }
+  }
+
+  &--link {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-link.png);
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &--list {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-list.png);
+      width: 16px;
+      height: 15px;
+    }
+  }
+
+  &--pickup-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-pickup-big.png);
+      width: 52px;
+      height: 51px;
+    }
+  }
+
+  &--dellivery-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-dellivery-big.png);
+      width: 46px;
+      height: 48px;
+    }
+  }
+
+  &--dellivery-company-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-dellivery-company-big.png);
+      width: 59px;
+      height: 39px;
+    }
+  }
+
+  &--money-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-money-big.png);
+      width: 43px;
+      height: 27px;
+    }
+  }
+
+  &--cash-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-cash-big.png);
+      width: 36px;
+      height: 45px;
+    }
+  }
+
+  &--prepay-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-prepay-big.png);
+      width: 38px;
+      height: 43px;
+    }
+  }
+
+  &--card-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-card-big.png);
+      width: 47px;
+      height: 31px;
+    }
+  }
+
+  &--credit-big {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-credit-big.png);
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  &--dellivery-2 {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-dellivery-2.png);
+      width: 39px;
+      height: 39px;
+    }
+  }
+
+  &--sale {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-sale.png);
+      width: 33px;
+      height: 33px;
+    }
+  }
+
+  &--view-card {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-view-card.png);
+      width: 17px;
+      height: 17px;
+    }
+  }
+
+  &--view-line {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-view-line.png);
+      width: 18px;
+      height: 17px;
+    }
+  }
+
+  &--anketa {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-anketa.png);
+      width: 28px;
+      height: 37px;
+    }
+  }
+
+  &--calc {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-calc.png);
+      width: 29px;
+      height: 37px;
+    }
+  }
+
+  &--circle {
+
+    &:before,
+    &:after {
+      width: 30px;
+      height: 30px;
+      border: 2px solid #b36969;
+      border-radius: 50%;
+    }
+  }
+
+  &--big {
+    &:before {
+      display: block;
+      margin: 0 auto 5px;
+      width: 60px;
+      height: 52px;
+    }
+  }
+}

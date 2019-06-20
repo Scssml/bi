@@ -1,0 +1,13 @@
+.price-old {
+  position: relative;
+
+  &:after {
+    content: '';
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 11px;
+    left: -2px;
+    width: 110%;
+    transform: rotate(-10deg);
+  }
+}

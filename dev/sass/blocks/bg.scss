@@ -1,0 +1,54 @@
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--contain {
+    background-size: contain;
+  }
+
+  &--bottom {
+    background-position: bottom;
+  }
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-red {
+  background-color: #bd0e0e;
+  color: #fff;
+}
+
+.bg-gray {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+.bg-gray-light {
+  background-color: #f4f4f4;
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(-45deg, transparent 50%, #3F3F3F 50%, #3F3F3F 60%, transparent 60%), linear-gradient(-45deg, #3F3F3F 10%, transparent 10%);
+  background-color: #383838;
+  background-size: 0.5em 0.5em;
+  color: #fff;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  background-position: top;
+  background-size: initial;
+
+  @media (max-width: 1199px) {
+    background-attachment: scroll;
+    background-size: cover;
+    // background-position: center;
+  }
+}

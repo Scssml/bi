@@ -1,0 +1,43 @@
+.basket {
+  padding: 0 20px;
+  border: 1px solid #d3d2d2;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+
+  &__item {
+    padding: 15px 0;
+    border-top: 1px dotted #d3d2d2;
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  &__price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #999999;
+  }
+
+  &__sum {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__delete {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/ico-delete.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+
+    @media (max-width: 991px) {
+      position: absolute;
+      top: -5px;
+      right: 5px;
+      z-index: 2;
+    }
+  }
+}

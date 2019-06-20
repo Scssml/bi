@@ -1,0 +1,30 @@
+.breadcrumb {
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    margin-right: 5px;
+
+    &:after {
+      content: '>';
+      font-size: 0.85rem;
+      margin-left: 5px;
+    }
+
+    &:last-child {
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &__link {
+
+  }
+}

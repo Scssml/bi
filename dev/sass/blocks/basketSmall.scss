@@ -1,0 +1,37 @@
+.basket-small {
+  text-align: center;
+  line-height: 1;
+  padding: 6px 0;
+
+  &__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+
+    &:before {
+      margin-right: -5px;
+      vertical-align: bottom;
+    }
+  }
+
+  &__count {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 11px;
+    border-radius: 50%;
+    font-weight: 700;
+  }
+
+  &__name {
+    display: inline-block;
+    vertical-align: middle;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+}

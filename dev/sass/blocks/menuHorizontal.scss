@@ -1,0 +1,49 @@
+.menu-horizontal {
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    flex-grow: 1;
+
+    &:first-child {
+
+      .menu-horizontal__link {
+        box-shadow: inset -1px 0 0 #292929;
+      }
+    }
+
+    &:last-child {
+
+      .menu-horizontal__link {
+        box-shadow: inset 1px 0 0 #292929,
+                    inset -2px 0 0 #292929;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    line-height: 48px;
+    text-decoration: none;
+    box-shadow: inset 1px 0 0 #292929,
+                inset -1px 0 0 #292929;
+    padding: 0 10px;
+    transition: background-color 0.25s ease-in-out,
+                color 0.25s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &--active {
+      background-color: #292929;
+      color: #e21313;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.carousel {
+  padding: 0 40px;
+
+  .owl-nav {
+
+    button.owl-prev,
+    button.owl-next {
+      position: absolute;
+      top: calc(50% - 25px);
+      width: 31px;
+      height: 50px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-indent: -9999px;
+      overflow: hidden;
+      outline: none;
+    }
+
+    button.owl-prev {
+      background-image: url(../img/arrow-right.png);
+      left: 0;
+      transform: rotate(180deg);
+    }
+
+    button.owl-next {
+      background-image: url(../img/arrow-right.png);
+      right: 0;
+    }
+  }
+}
+
+.partner-logo {
+  text-align: center;
+  height: 120px;
+  filter: grayscale(1) contrast(0.7);
+  transition: filter 0.25s ease-in-out;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  &:hover,
+  &:focus {
+    filter: grayscale(0) contrast(1);
+  }
+
+  img {
+    width: auto !important;
+    display: inline-block !important;
+    vertical-align: middle;
+    max-width: 90%;
+  }
+}
