@@ -1,0 +1,23 @@
+.soc {
+  display: flex;
+  align-items: flex-end;
+
+  &__link {
+    border: none;
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover,
+    &:focus {
+      border: none;
+    }
+
+    img {
+      max-width: 30px;
+      max-height: 20px;
+    }
+  }
+}

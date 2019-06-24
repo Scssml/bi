@@ -1,0 +1,25 @@
+.service-block {
+  width: 250px;
+  height: 215px;
+  background-image: url(../img/bg.png);
+  background-color: #c7cbda;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  color: rgba(62, 62, 84, 0.7);
+  cursor: pointer;
+
+  &__img {
+    height: 56px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+  }
+}

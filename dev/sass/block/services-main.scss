@@ -1,0 +1,13 @@
+.services-main {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -72px;
+
+  &__preview-item {
+    width: 310px;
+  }
+
+  &__list {
+    width: calc(100% - 310px);
+  }
+}

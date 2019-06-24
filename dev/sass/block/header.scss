@@ -1,0 +1,14 @@
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 44px;
+  color: #fff;
+  
+  &__contacts {
+    align-content: center;
+    align-items: center;
+    min-width: 50%;
+    justify-content: space-between;
+  }
+}

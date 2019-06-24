@@ -1,0 +1,44 @@
+.text-block {
+  line-height: 19px;
+  color: #6D6D7F;
+
+  &__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #3e3e54;
+  }
+
+  &__sub-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__link-more {
+    font-weight: 500;
+  }
+
+  &--dark {
+    color: #fff;
+
+    .text-block__title {
+      color: #fff;
+    }
+  }
+
+  &--small {
+    font-size: 13px;
+    line-height: 16px;
+
+    .text-block__title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .text-block__sub-title {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+  }
+}

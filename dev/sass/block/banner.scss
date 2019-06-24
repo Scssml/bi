@@ -1,0 +1,19 @@
+.banner {
+  height: 498px;
+  background-image: url(../img/main_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  padding: 100px 0 20px;
+  color: #fff;
+
+  @media (max-width: 1440px) {
+    background-size: auto 498px;
+  }
+
+  &__content {
+    height: 100%;
+    align-items: center;
+  }
+}
