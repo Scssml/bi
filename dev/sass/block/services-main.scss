@@ -6,9 +6,32 @@
 
   &__preview-item {
     width: 310px;
+
+    @media (max-width: 1109px) {
+      display: none;
+    }
   }
 
   &__list {
     width: calc(100% - 310px);
+
+    @media (max-width: 1109px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 575px) {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 1359px) {
+    margin-top: -52px;
+    margin-bottom: 70px;
+  }
+
+  @media (max-width: 1109px) {
+    margin-bottom: 40px;
   }
 }

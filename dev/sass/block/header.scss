@@ -5,10 +5,44 @@
   top: 44px;
   color: #fff;
   
+  &__logo {
+    a {
+      border-bottom: none;
+    }
+
+    @media (max-width: 919px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
   &__contacts {
     align-content: center;
     align-items: center;
     min-width: 50%;
     justify-content: space-between;
+
+    @media (max-width: 1359px) {
+      min-width: 70%;
+    }
+
+    @media (max-width: 1109px) {
+      min-width: 80%;
+    }
+
+    @media (max-width: 919px) {
+      min-width: 100%;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+  }
+
+  @media (max-width: 919px) {
+    top: 20px;
   }
 }
