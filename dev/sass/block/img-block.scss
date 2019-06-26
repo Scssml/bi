@@ -1,0 +1,10 @@
+.img-block {
+  border-radius: 10px;
+  box-shadow: 0 0 0 6px #dfdfe8;
+  margin: -93px 6px 6px;
+
+  @media (max-width: 1109px) {
+    margin-top: 6px;
+    display: none;
+  }
+}

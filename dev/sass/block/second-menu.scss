@@ -1,0 +1,36 @@
+.second-menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  margin-bottom: 25px;
+
+  &__link {
+    padding: 0 10px 5px;
+    border-bottom: 3px solid transparent;
+    margin-right: 40px;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover,
+    &:focus,
+    &--active {
+      border-bottom: 3px solid;
+    }
+
+    @media (max-width: 767px) {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    justify-content: space-between;
+  }
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+    display: inline-flex;
+  }
+}

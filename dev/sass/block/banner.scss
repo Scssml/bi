@@ -8,6 +8,15 @@
   padding: 100px 0 20px;
   color: #fff;
 
+  &--no-image {
+    background-color: #737384;
+    background-image: none;
+  }
+
+  &--small {
+    height: 390px;;
+  }
+
   @media (max-width: 1440px) {
     background-size: auto 498px;
   }

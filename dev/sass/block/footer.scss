@@ -1,9 +1,18 @@
 .footer {
+  color: #3E3E54;
+
+  &--light {
+    color: #737384
+  }
 
   &__content {
     height: 92px;
     justify-content: space-between;
     align-items: center;
+
+    &--border {
+      border-top: 1px solid #737384;
+    }
   }
 
   &__copyright {

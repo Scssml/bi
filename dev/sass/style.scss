@@ -1,6 +1,6 @@
 @import 'bootstrap';
 @import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min';
-@import '../../node_modules/fancybox/dist/scss/jquery.fancybox.scss';
+@import '../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox';
 @import '../vendor/jquery.mb-comingsoon/jquery.mb-comingsoon';
 
 @import 'main';
@@ -16,3 +16,9 @@
 @import 'block/slidet-vertical';
 @import 'block/article';
 @import 'block/soc';
+@import 'block/btn';
+@import 'block/img-block';
+@import 'block/workarea';
+@import 'block/second-menu';
+@import 'block/popup-form';
+@import 'block/form';

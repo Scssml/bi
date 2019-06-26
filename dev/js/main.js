@@ -22,4 +22,15 @@ $(document).ready(function(){
       $('.main-menu').removeClass('main-menu--fixed');
     }
   });
+
+  $('.popup').fancybox();
+
+  $(document).on('change', '.form__file input', function () {
+    var inputText = 'Прикрепить файл'
+    if (this.files.length > 0) {
+      inputText = this.files[0].name;
+    }
+
+    $(this).prev('span').text(inputText);
+  });
 });
