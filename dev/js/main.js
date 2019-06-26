@@ -23,7 +23,9 @@ $(document).ready(function(){
     }
   });
 
-  $('.popup').fancybox();
+  $('.popup').fancybox({
+    baseClass: 'popup'
+  });
 
   $(document).on('change', '.form__file input', function () {
     var inputText = 'Прикрепить файл'

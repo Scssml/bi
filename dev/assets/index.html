@@ -28,10 +28,10 @@
           <a href="#" class="main-menu__btn"></a>
           <div class="main-menu__block">
             <nav class="main-menu__nav">
-              <a href="#" class="main-menu__link">Отрасли</a>
-              <a href="#" class="main-menu__link">Банк знаний</a>
-              <a href="#" class="main-menu__link">Услуги</a>
-              <a href="#" class="main-menu__link">О нас</a>
+              <a href="/industries.html" class="main-menu__link">Отрасли</a>
+              <a href="/articles.html" class="main-menu__link">Банк знаний</a>
+              <a href="/services.html" class="main-menu__link">Услуги</a>
+              <a href="/about.html" class="main-menu__link">О нас</a>
             </nav>
             <a href="#" class="main-menu__close"></a>
           </div>
@@ -205,6 +205,96 @@
         </div>
       </div>
     </footer>
+
+    <div class="hidden" id="popup-order">
+      <div class="popup-form">
+        <h3 class="mb-4">Запрос на оказание услуг</h3>
+        <form class="form">
+          <p class="heading">Контактные данные</p>
+          <div class="form__section">
+            <div class="form__item form__item--50">
+              <input type="text" class="form__input" placeholder="Имя">
+            </div>
+            <div class="form__item form__item--50">
+              <input type="tel" class="form__input" placeholder="Телефон">
+            </div>
+            <div class="form__item">
+              <input type="email" class="form__input" placeholder="E-mail">
+            </div>
+          </div>
+          <p class="heading">Данные компании</p>
+          <div class="form__section">
+            <div class="form__item">
+              <input type="text" class="form__input" placeholder="Название организации">
+            </div>
+            <div class="form__item">
+              <input type="text" class="form__input" placeholder="Ссылка на сайт">
+            </div>
+          </div>
+          <p class="heading">Сообщение</p>
+          <div class="form__section">
+            <div class="form__item">
+              <textarea class="form__textarea" placeholder="Текст сообщения"></textarea>
+            </div>
+          </div>
+          <div class="form__section">
+            <div class="form__item form__item--50">
+              <button type="text" class="btn form__btn">Отправить</button>
+            </div>
+            <div class="form__item form__item--50 order-xs-first">
+              <label class="form__file">
+                <span>Прикрепить файл</span>
+                <input type="file" placeholder="Прикрепить файл">
+              </label>
+            </div>
+          </div>
+          <div class="form__section">
+            <div class="form__item">
+              <label class="form__checkbox">
+                <input type="checkbox">
+                <span>Согласие на обработку данных</span>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="hidden" id="popup-recall">
+      <div class="popup-form">
+        <h3 class="mb-4">Написать нам</h3>
+        <form class="form">
+          <div class="form__section">
+            <div class="form__item form__item--50">
+              <input type="text" class="form__input" placeholder="Имя">
+            </div>
+            <div class="form__item form__item--50">
+              <input type="tel" class="form__input" placeholder="Телефон">
+            </div>
+            <div class="form__item">
+              <input type="email" class="form__input" placeholder="E-mail">
+            </div>
+            <div class="form__item">
+              <textarea class="form__textarea" placeholder="Сообщение"></textarea>
+            </div>
+          </div>
+          <div class="form__section">
+            <div class="form__item form__item--50">
+              <button type="text" class="btn form__btn">Отправить</button>
+            </div>
+          </div>
+          <div class="form__section">
+            <div class="form__item">
+              <label class="form__checkbox">
+                <input type="checkbox">
+                <span>Согласие на обработку данных</span>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    
     <script src="js/libs.min.js"></script>
     <script src="js/all.min.js"></script>
   </body>

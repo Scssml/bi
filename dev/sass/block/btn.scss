@@ -40,4 +40,10 @@
       background-image: url(../img/mail-ico.svg);
     }
   }
+
+  &--file {
+    &:after {
+      background-image: url(../img/file-ico.svg);
+    }
+  }
 }

@@ -1,0 +1,30 @@
+.popup {
+
+  .fancybox-content {
+    background-color: #F0EFF4;
+    border-radius: 10px;
+    overflow: visible;
+
+    @media (max-width: 575px) {
+      padding: 25px;
+    }
+  }
+
+  .fancybox-close-small {
+    width: 28px;
+    height: 28px;
+    background: #9298AB;
+    padding: 0;
+    color: #F0EFF4;
+    border-radius: 5px;
+    opacity: 1;
+    outline: none;
+    top: -14px;
+    right: -14px;
+
+    @media (max-width: 575px) {
+      top: 5px;
+      right: 5px;
+    }
+  }
+}
