@@ -1,0 +1,36 @@
+.module-block {
+  display: flex;
+  align-items: center;
+  width: 285px;
+  height: 60px;
+  padding: 15px;
+  margin: 0 0 10px 10px;
+  color: #3E3E54;
+  background: #E5E4EB;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 18px;
+  border-bottom: none;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+
+  &:hover,
+  &:focus {
+    border-bottom: none;
+    background: #A5B0CE;
+    color: #E5E4EB;
+  }
+
+  @media (max-width: 1109px) {
+    margin-left: 0;
+  }
+
+  @media (max-width: 767px) {
+    width: 260px;
+    height: 70px;
+  }
+
+  @media (max-width: 575px) {
+    width: 100%;
+    height: 60px;
+  }
+}

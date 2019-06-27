@@ -87,6 +87,24 @@
     }
   }
 
+  &-list {
+    width: 767px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #F0EFF4;
+    background-image: url(../img/bg.png);
+    margin-top: -50px;
+    box-shadow: 0px 4px 7px rgba(98, 109, 136, 0.25);
+
+    @media (max-width: 1359px) {
+      width: 670px;
+    }
+
+    @media (max-width: 1109px) {
+      width: 100%;
+    }
+  }
+
   &-2-col {
     justify-content: space-between;
     background: #fff;
@@ -131,6 +149,56 @@
 
   }
 
+  &-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #91909F;
+    margin-bottom: 30px;
+
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    &__content {
+      width: 514px;
+
+      @media (max-width: 1359px) {
+        width: 430px;
+      }
+
+      @media (max-width: 767px) {
+        width: 340px;
+      }
+    }
+
+    &__img {
+      width: calc(100% - 554px);
+      margin-top: 20px;
+
+      @media (max-width: 1359px) {
+        width: calc(100% - 460px);
+        margin-top: 60px;
+      }
+
+      @media (max-width: 767px) {
+        width: calc(100% - 370px);
+      }
+
+      @media (max-width: 575px) {
+        width: 100%;
+        height: 150px;
+        order: -1;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+
   &-vertical {
     padding-bottom: 30px;
     border-bottom: 1px solid #91909F;
@@ -151,6 +219,67 @@
 
       @media (max-width: 767px) {
         height: 200px;
+      }
+    }
+  }
+
+  &-subscribe {
+    width: 280px;
+    margin-top: 20px;
+
+    @media (max-width: 1359px) {
+      width: 240px;
+    }
+
+    @media (max-width: 1109px) {
+      width: auto;
+    }
+  }
+
+  &-carousel-item {
+    background: #A5B0CE;
+    box-shadow: 0px 4px 7px rgba(98, 109, 136, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    color: #e5e4eb;
+
+    &__info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__img {
+      width: 40%;
+      height: 104px;
+      text-align: right;
+
+      img {
+        width: auto !important;
+        display: inline-block !important;
+      }
+    }
+
+    .article__name,
+    .article__link-more {
+      color: #F2F1F5;
+    }
+
+    .article__name {
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .article__text {
+      height: 110px;
+      overflow: hidden;
+    }
+
+    .article__views {
+
+      &:before {
+        background-image: url(../img/views-ico--white.svg);
       }
     }
   }

@@ -3,6 +3,8 @@
   justify-content: space-between;
   margin-top: -72px;
   margin-bottom: 104px;
+  overflow: hidden;
+  position: relative;
 
   &__preview-item {
     width: 310px;
@@ -13,16 +15,35 @@
   }
 
   &__list {
-    width: calc(100% - 310px);
+    width: 780px;
+    height: 460px !important;
+
+    @media (max-width: 1359px) {
+      width: 630px;
+      height: 400px !important;
+    }
 
     @media (max-width: 1109px) {
       width: 100%;
       display: flex;
       justify-content: space-between;
+      height: auto !important;
     }
 
     @media (max-width: 575px) {
       justify-content: center;
+    }
+  }
+
+  &__item {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    
+    &--active {
+      opacity: 1;
+      visibility: visible;
+      display: block;
     }
   }
 

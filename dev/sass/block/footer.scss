@@ -6,12 +6,16 @@
   }
 
   &__content {
-    height: 92px;
+    min-height: 92px;
     justify-content: space-between;
     align-items: center;
 
     &--border {
       border-top: 1px solid #737384;
+    }
+
+    @media (max-width: 575px) {
+      min-height: 120px;
     }
   }
 

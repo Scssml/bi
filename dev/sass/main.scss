@@ -39,6 +39,14 @@ img {
   background-image: url(../img/bg.png);
 }
 
+.w-100 {
+  width: 100%;
+}
+
+.text-right {
+  text-align: right
+}
+
 .py {
   &-5 {
     padding-top: 50px;
@@ -172,6 +180,18 @@ h3, .h3 {
   @media (max-width: 575px) {
     font-size: 21px;
     line-height: 21px;
+  }
+}
+
+h4, .h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+
+  @media (max-width: 575px) {
+    font-size: 17px;
+    line-height: 17px;
   }
 }
 

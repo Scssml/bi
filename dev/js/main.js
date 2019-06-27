@@ -35,4 +35,87 @@ $(document).ready(function(){
 
     $(this).prev('span').text(inputText);
   });
+
+  $(".owl-carousel").owlCarousel({
+    margin: 30,
+    loop: true,
+    responsive: {
+      '1110' : {
+        items: 3,
+        nav: true,
+        dots: false
+      },
+      '920' : {
+        items: 2,
+        nav: true,
+        dots: false
+      },
+      '768': {
+        items: 2,
+        nav: false,
+        dots: true
+      },
+      '576': {
+        items: 1,
+        nav: false,
+        dots: true
+      },
+      '320': {
+        items: 1,
+        nav: false,
+        dots: true
+      }
+    }
+  });
+
+  var servicesList = $('.services-main__list');
+  var masonryInit = false;
+
+  $('input[type="tel"').inputmask('+7 (999) 999-99-99')
+
+  servicesList.on('click', '.service-block', function () {
+    var windowWidth = $(window).width();
+
+    if (windowWidth >= 1110) {
+      var id = $(this).data('id');
+      var block = $(this).clone();
+
+      servicesList.masonry('remove', this);
+      servicesList.append(block).masonry('appended', block);
+      servicesList.masonry();
+
+      $('.services-main__item--active').removeClass('services-main__item--active');
+      $('#' + id).addClass('services-main__item--active');
+
+      return false;
+    }
+  });
+
+  function initMasonry () {
+    var windowWidth = $(window).width();
+
+    if (windowWidth < 1110) {
+      if (masonryInit) {
+        servicesList.masonry('destroy');
+
+        masonryInit = false
+      }
+    } else {
+      if (!masonryInit) {
+        servicesList.masonry({
+          columnWidth: '.service-block',
+          gutter: 15,
+          itemSelector: '.service-block'
+        });
+
+        masonryInit = true
+      }
+    }
+  }
+
+  initMasonry();
+
+  $(window).resize(function () {
+    initMasonry();
+  });
 });

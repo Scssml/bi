@@ -37,6 +37,7 @@ gulp.task('libs-js', function() {
       'node_modules/inputmask/dist/min/jquery.inputmask.bundle.min.js',
       'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
       'node_modules/jquery-ui-dist/jquery-ui.min.js',
+      'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
       'dev/vendor/jquery.mb-comingsoon/jquery.mb-comingsoon.min.js',
     ]),
     cached('libs-js'),
