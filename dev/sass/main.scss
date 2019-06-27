@@ -34,6 +34,11 @@ img {
   color: #fff;
 }
 
+.very-dark-bg {
+  background-color: #9298AB;
+  color: #fff;
+}
+
 .light-bg {
   background-color: #C1C5D6;
   background-image: url(../img/bg.png);
@@ -76,6 +81,9 @@ img {
 }
 
 .mb {
+  &-0 {
+    margin-bottom: 0;
+  }
   &-2 {
     margin-bottom: 15px;
   }

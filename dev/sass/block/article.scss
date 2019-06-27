@@ -243,6 +243,12 @@
     padding: 20px;
     color: #e5e4eb;
 
+    &--no-bg {
+      background: none;
+      box-shadow: none;
+      padding: 0;
+    }
+
     &__info {
       width: 50%;
       display: flex;

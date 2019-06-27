@@ -12,6 +12,23 @@ $(document).ready(function(){
     return false;
   });
 
+  $('.slidet-vertical').on('click', '.slidet-vertical__btn', function () {
+    var btn = $(this);
+    var parent = btn.parent('.slidet-vertical');
+    var activeBlock = parent.find('.slidet-vertical__item--active');
+
+    activeBlock.addClass('slidet-vertical__item--hidden');
+    activeBlock.next('.slidet-vertical__item').addClass('slidet-vertical__item--active');
+    activeBlock.removeClass('slidet-vertical__item--active');
+
+    setTimeout(function () {
+      btn.before(activeBlock);
+      activeBlock.removeClass('slidet-vertical__item--hidden');
+    }, 500);
+
+    return false;
+  });
+
   $(window).scroll(function(){
     var menuTop = 230;
     var scrollTop = $(this).scrollTop();

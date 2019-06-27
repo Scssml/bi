@@ -48,4 +48,32 @@
       }
     }
   }
+
+  &--dark {
+
+    &.owl-carousel {
+
+      .owl-nav {
+  
+        .owl-prev {
+          background-image: url(../img/slider-arrow-left--white.svg);
+        }
+  
+        .owl-next {
+          background-image: url(../img/slider-arrow-right--white.svg);
+        }
+      }
+
+      .owl-dots {
+  
+        .owl-dot {
+          border: 1px solid #f2f1f5;
+  
+          &.active {
+            background: #f2f1f5;
+          }
+        }
+      }
+    }
+  }
 }
