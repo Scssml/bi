@@ -46,4 +46,8 @@
       background-image: url(../img/file-ico.svg);
     }
   }
+
+  @media (max-width: 575px) {
+    padding-left: 15px;
+  }
 }

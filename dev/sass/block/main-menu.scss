@@ -114,6 +114,8 @@
       box-shadow: 0 4px 5px rgba(98,109,136,.25);
       justify-content: space-between;
       transition: transform 0.25s ease-in-out, visibility 0s ease-in-out 0.25s;
+      background-color: #6d768f;
+      background-image: url(../img/bg.png);
 
       &--show {
         transform: translateX(0);
@@ -167,6 +169,21 @@
       @media (max-width: 919px) {
         top: 0;
       }
+    }
+  }
+
+  &__logo {
+    display: none;
+    margin: 0 10px 20px;
+    border-bottom: none;
+
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
+
+    @media (max-width: 919px) {
+      display: block;
     }
   }
 }

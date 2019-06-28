@@ -1,0 +1,21 @@
+.vertical-menu {
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: #737384;
+    padding: 12px 0;
+    min-height: 53px;
+
+    &:hover,
+    &:focus,
+    &--active {
+      border-bottom: 1px solid;
+      font-weight: 600;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.breadcrumbs {
+
+  a {
+    border-bottom: none;
+    color: #b7b7b7;
+
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
+
+    &:last-child {
+      color: #737384;
+    }
+  }
+}

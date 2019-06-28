@@ -1,0 +1,33 @@
+.ico {
+  display: flex;
+
+  &:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+
+  &--email {
+
+    &:before {
+      background-image: url(../img/mail-ico-2.svg);
+    }
+  }
+
+  &--tel {
+
+    &:before {
+      background-image: url(../img/tel-ico.svg);
+    }
+  }
+
+  &--loc {
+
+    &:before {
+      background-image: url(../img/loc-ico.svg);
+    }
+  }
+}

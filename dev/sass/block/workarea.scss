@@ -27,9 +27,43 @@
   ul {
     list-style-image: url(../img/marker-ico.svg);
     padding-left: 20px;
+    
+    li {
+      margin-bottom: 15px;
+    }
   }
   
-  li {
-    margin-bottom: 15px;
+  ol {
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+    tr {
+
+      &:last-child {
+        
+        td {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    td {
+      padding: 20px;
+      vertical-align: top;
+      border-bottom: 1px solid;
+      border-right: 1px solid;
+
+      &:last-child {
+        border-right: 0;
+      }
+    }
   }
 }

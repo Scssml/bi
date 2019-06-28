@@ -1,0 +1,10 @@
+.map {
+  margin-top: -70px;
+  position: relative;
+
+  &__item {
+    position: absolute;
+    top: 51%;
+    left: 11%;
+  }
+}

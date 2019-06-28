@@ -1,0 +1,14 @@
+.contact-block {
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #F0EFF4;
+  background-image: url(../img/bg.png);
+  border-radius: 10px;
+  box-shadow: 0 0 0 6px #dfdfe8;
+  margin: -93px 6px 6px;
+  padding: 20px 12px;
+
+  @media (max-width: 1109px) {
+    margin-top: 20px;
+  }
+}

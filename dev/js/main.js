@@ -12,6 +12,20 @@ $(document).ready(function(){
     return false;
   });
 
+  $(document).on('click', '.tabs-panel__item', function () {
+    var tabsPanel = $(this).parent('.tabs-panel');
+    var tabsContent = tabsPanel.next('.tabs-content');
+    var id = $(this).attr('href');
+
+    tabsPanel.find('.tabs-panel__item--active').removeClass('tabs-panel__item--active');
+    $(this).addClass('tabs-panel__item--active');
+
+    tabsContent.find('.tabs-content__item--active').removeClass('tabs-content__item--active');
+    $(id).addClass('tabs-content__item--active');
+
+    return false;
+  });
+
   $('.slidet-vertical').on('click', '.slidet-vertical__btn', function () {
     var btn = $(this);
     var parent = btn.parent('.slidet-vertical');

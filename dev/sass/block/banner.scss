@@ -7,6 +7,7 @@
   background-attachment: fixed;
   padding: 100px 0 20px;
   color: #fff;
+  box-shadow: 0px 4px 7px rgba(98, 109, 136, 0.25);
 
   &--no-image {
     background-color: #737384;
@@ -24,5 +25,9 @@
   &__content {
     height: 100%;
     align-items: center;
+  }
+
+  @media (max-width: 575px) {
+    padding-top: 150px;
   }
 }
