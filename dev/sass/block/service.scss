@@ -18,6 +18,12 @@
       margin-right: 34px;
       margin-top: 20px;
       flex-shrink: 0;
+      border-bottom: 0;
+
+      &:hover,
+      &:focus {
+        border-bottom: 0;
+      }
 
       img {
         width: 80%;

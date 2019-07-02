@@ -4,6 +4,14 @@
   left: 0;
   top: 44px;
   color: #fff;
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: transform 0.45s ease-in-out, opacity 0.60s ease-in-out;
+
+  &--show {
+    opacity: 1;
+    transform: translateY(0);
+  }
   
   &__logo {
     a {

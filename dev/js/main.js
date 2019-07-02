@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  $('.header').addClass('header--show');
+  $('.banner__content').addClass('banner__content--show');
+  $('.main-menu').addClass('main-menu--show');
+
   $(document).on('click', '.main-menu__btn', function () {
     $(this).addClass('main-menu__btn--hidden');
     $('.main-menu__block').addClass('main-menu__block--show');
