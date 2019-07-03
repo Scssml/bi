@@ -10,6 +10,17 @@ $(document).ready(function(){
     return false;
   });
 
+  $(document).on('click', '.article-detail__structure a', function(){
+		var id = $(this).attr('href');
+		var top = 0;
+
+		if ($(id).length != 0) {
+			var top =  $(id).offset().top;
+  		$('html, body').animate({ scrollTop: top }, 500);
+		}
+		return false;
+	});
+
   $(document).on('click', '.main-menu__close', function () {
     $('.main-menu__btn--hidden').removeClass('main-menu__btn--hidden');
     $('.main-menu__block--show').removeClass('main-menu__block--show');
@@ -71,12 +82,44 @@ $(document).ready(function(){
     $(this).prev('span').text(inputText);
   });
 
-  $(".owl-carousel").owlCarousel({
+  $(".carousel").owlCarousel({
     margin: 30,
     loop: true,
     responsive: {
       '1110' : {
         items: 3,
+        nav: true,
+        dots: false
+      },
+      '920' : {
+        items: 2,
+        nav: true,
+        dots: false
+      },
+      '768': {
+        items: 2,
+        nav: false,
+        dots: true
+      },
+      '576': {
+        items: 1,
+        nav: false,
+        dots: true
+      },
+      '320': {
+        items: 1,
+        nav: false,
+        dots: true
+      }
+    }
+  });
+
+  $(".carousel-sections").owlCarousel({
+    margin: 10,
+    loop: true,
+    responsive: {
+      '1110' : {
+        items: 2,
         nav: true,
         dots: false
       },
