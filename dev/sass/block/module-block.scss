@@ -14,7 +14,8 @@
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 
   &:hover,
-  &:focus {
+  &:focus,
+  &--active {
     border-bottom: none;
     background: #A5B0CE;
     color: #E5E4EB;
