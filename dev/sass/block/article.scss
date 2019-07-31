@@ -13,6 +13,13 @@
     font-size: 20px;
     line-height: 20px;
     color: #3E3E54;
+    display: block;
+    border-bottom: none;
+
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
   }
 
   &__author {
@@ -52,6 +59,17 @@
   &-main-preview {
     width: 737px;
 
+    &__item {
+      display: none;
+      min-height: 100%;
+      background: #fff;
+      border-radius: 10px;
+
+      &--active {
+        display: block;
+      }
+    }
+
     @media (max-width: 1359px) {
       width: 590px;
     }
@@ -64,26 +82,50 @@
 
   &-main-list {
     width: 328px;
+    position: relative;
+
+    &__item {
+      position: absolute;
+      cursor: pointer;
+      left: 0;
+      transform: translateX(-100%);
+      transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+      z-index: 2;
+      opacity: 0;
+
+      &--active {
+        position: relative;
+        transform: translateX(0);
+        transition: transform 0s ease-in-out;
+        z-index: 1;
+        opacity: 1;
+      }
+
+      &:nth-child(1),
+      &:not(.article-main-list__item--active) + .article-main-list__item {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #91909F;
+        margin-bottom: 30px;
+      }
+
+      @media (max-width: 1109px) {
+        width: calc(50% - 15px);
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #91909F;
+      }
+    }
 
     @media (max-width: 1109px) {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-
-      .article-vertical {
-        width: calc(50% - 15px);
-        border-bottom: none;
-        padding-bottom: 0;
-      }
-    }
-
-    @media (max-width: 767px) {
-      .article-vertical {
-        width: 100%;
-        padding-bottom: 30px;
-        border-bottom: 1px solid #91909F;
-      }
     }
   }
 
@@ -216,6 +258,13 @@
       background-position: 50% 30%;
       height: 115px;
       border-radius: 10px;
+      display: block;
+      border-bottom: none;
+
+      &:hover,
+      &:focus {
+        border-bottom: none;
+      }
 
       @media (max-width: 767px) {
         height: 200px;

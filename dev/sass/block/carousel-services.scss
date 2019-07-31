@@ -1,0 +1,59 @@
+.carousel-services {
+
+  &__item {
+
+  }
+
+  &.owl-carousel {
+    .owl-item {
+      img {
+        width: auto;
+      }
+    }
+
+    .owl-nav {
+      position: absolute;
+      width: 100%;
+      top: calc(50% - 19px);
+
+      .owl-prev,
+      .owl-next {
+        position: absolute;
+        text-indent: -999px;
+        overflow: hidden;
+        width: 22px;
+        height: 38px;
+        background-position: center;
+        background-repeat: no-repeat;
+        outline: none;
+      }
+
+      .owl-prev {
+        left: -50px;
+        background-image: url(../img/slider-arrow-left.svg);
+      }
+
+      .owl-next {
+        right: -50px;
+        background-image: url(../img/slider-arrow-right.svg);
+      }
+    }
+
+    .owl-dots {
+      text-align: center;
+      margin-top: 10px;
+
+      .owl-dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 1px solid #3e3e54;
+        margin: 0 2px;
+
+        &.active {
+          background: #3e3e54;
+        }
+      }
+    }
+  }
+}

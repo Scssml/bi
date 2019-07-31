@@ -38,7 +38,30 @@ $(document).ready(function(){
     tabsContent.find('.tabs-content__item--active').removeClass('tabs-content__item--active');
     $(id).addClass('tabs-content__item--active');
 
+    history.pushState(null, null, window.location.pathname + id);
+
     return false;
+  });
+
+  $(document).on('click', '.article-main-list__item', function () {
+    var windowWidth = $(window).width();
+
+    if (windowWidth >= 1110) {
+      var article = $(this);
+      var id = article.data('href');
+
+      $('.article-main-preview__item--active').removeClass('article-main-preview__item--active');
+      $(id).addClass('article-main-preview__item--active');
+
+      $('.article-main-list__item').addClass('article-main-list__item--active');
+      article.removeClass('article-main-list__item--active');
+
+      setTimeout(function () {
+        $('.article-main-list').append(article);
+      }, 250);
+
+      return false;
+    }
   });
 
   $('.slidet-vertical').on('click', '.slidet-vertical__btn', function () {
@@ -146,54 +169,75 @@ $(document).ready(function(){
     }
   });
 
+  $(".carousel-services").owlCarousel({
+    margin: 15,
+    loop: false,
+    nav: false,
+    dots: true,
+    responsive: {
+      '768': {
+        items: 3
+      },
+      '576': {
+        items: 2
+      },
+      '320': {
+        items: 1
+      }
+    }
+  });
+
   var servicesList = $('.services-main__list');
   var masonryInit = false;
 
-  $('input[type="tel"').inputmask('+7 (999) 999-99-99')
+  $('input[type="tel"').inputmask('+7 (999) 999-99-99');
 
   servicesList.on('click', '.service-block', function () {
     var windowWidth = $(window).width();
 
     if (windowWidth >= 1110) {
       var id = $(this).data('id');
-      var block = $(this).clone();
+      // var block = $(this).clone();
 
-      servicesList.masonry('remove', this);
-      servicesList.append(block).masonry('appended', block);
-      servicesList.masonry();
+      // servicesList.masonry('remove', this);
+      // servicesList.append(block).masonry('appended', block);
+      // servicesList.masonry();
 
       $('.services-main__item--active').removeClass('services-main__item--active');
       $('#' + id).addClass('services-main__item--active');
+
+      $('.service-block--active').removeClass('service-block--active');
+      $(this).addClass('service-block--active');
 
       return false;
     }
   });
 
-  function initMasonry () {
-    var windowWidth = $(window).width();
+  // function initMasonry () {
+  //   var windowWidth = $(window).width();
 
-    if (windowWidth < 1110) {
-      if (masonryInit) {
-        servicesList.masonry('destroy');
+  //   if (windowWidth < 1110) {
+  //     if (masonryInit) {
+  //       servicesList.masonry('destroy');
 
-        masonryInit = false
-      }
-    } else {
-      if (!masonryInit) {
-        servicesList.masonry({
-          columnWidth: '.service-block',
-          gutter: 15,
-          itemSelector: '.service-block'
-        });
+  //       masonryInit = false
+  //     }
+  //   } else {
+  //     if (!masonryInit) {
+  //       servicesList.masonry({
+  //         columnWidth: '.service-block',
+  //         gutter: 15,
+  //         itemSelector: '.service-block'
+  //       });
 
-        masonryInit = true
-      }
-    }
-  }
+  //       masonryInit = true
+  //     }
+  //   }
+  // }
 
-  initMasonry();
+  // initMasonry();
 
-  $(window).resize(function () {
-    initMasonry();
-  });
+  // $(window).resize(function () {
+  //   initMasonry();
+  // });
 });
